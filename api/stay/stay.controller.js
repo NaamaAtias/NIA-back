@@ -1,5 +1,5 @@
 const stayService = require('./stay.service.js');
-const logger = require('../../services/logger.service')
+const logger = require('../../services/logger.service.js')
 
 // GET LIST
 async function getStays(req, res) {
